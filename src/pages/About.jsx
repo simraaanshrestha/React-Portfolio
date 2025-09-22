@@ -1,19 +1,19 @@
 import React from 'react'
 
-const About = () => {
+const About = ({theme}) => {
     return (
-        <div className="about">
+        <div style = {{background : theme ==='dark' ? '#000' : '#fff', color : theme === 'dark' ? '#000' : '#fff'}}   className="about">
             <div className="me">
-                <h1><u>About me</u></h1>
+                <h1>About me</h1>
+                <h3>Web <span className="d">Developer</span></h3>
             </div>
             <div className="dis">
-                <p>I am a Front-End Web Developer !
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p>I am a passionate Frontend Web Developer with a keen eye for design and a strong commitment to creating responsive, accessible, and user-friendly digital experiences. My expertise includes HTML, CSS, JavaScript, and modern frameworks, allowing me to create interactive interfaces that enhance user experience. I combine clean, efficient code with creative design to bring ideas to life, ensuring functionality and aesthetics work hand in hand. Continuously learning and staying updated with industry trends, I aim to deliver high-quality, scalable solutions that help brands and businesses connect effectively with their audiences in the ever-evolving digital world.</p>
             </div>
+            <button>Lets Talk</button>
 
         </div>
-        
+
     )
 }
 

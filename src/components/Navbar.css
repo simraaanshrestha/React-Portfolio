@@ -1,0 +1,20 @@
+.light .nav {
+    background: #fff;
+    
+}
+.light .nav a {
+    color: #000;
+}
+
+.light .nav a:hover {
+    color: #923141;
+}
+.light .cv {
+    color: black;
+}
+.light .lio{
+    color: #923141;
+}
+.lio{
+    color: rgb(230, 22, 57);
+}
