@@ -1,8 +1,8 @@
 import React from 'react'
 
-const About = ({theme}) => {
+const About = ({ theme }) => {
     return (
-        <div style = {{background : theme ==='dark' ? '#000' : '#fff', color : theme === 'dark' ? '#000' : '#fff'}}   className="about">
+        <div style={{ background: theme === 'dark' ? '#000' : '#fff', color: theme === 'dark' ? '#000' : '#fff' }} className="about">
             <div className="me">
                 <h1>About me</h1>
                 <h3>Web <span className="d">Developer</span></h3>

@@ -1,10 +1,10 @@
 import React from 'react'
 import NavItem from './NavItem'
 import { Link } from 'react-router-dom'
-import { PiSunThin , PiMoon} from "react-icons/pi";
-import './Navbar.css'; 
+import { PiSunThin, PiMoon } from "react-icons/pi";
+import './Navbar.css';
 
-const Navbar = ({theme,setTheme}) => {
+const Navbar = ({ theme, setTheme }) => {
     const toggleTheme = () => {
         theme === 'dark' ? setTheme('light') : setTheme('dark');
     }
@@ -38,5 +38,4 @@ const Navbar = ({theme,setTheme}) => {
         </div>
     )
 }
-
 export default Navbar
