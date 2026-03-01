@@ -22,7 +22,7 @@ const Home = ({ theme }) => {
         </div>
         <div className="pic">
           {/* <img src="https://astro-fe-portfolio.netlify.app/_astro/hero.f50e213d_Fme8W.png" alt="" /> */}
-          <img src="./me.png" alt="" />
+          <img src="./mee.png" alt=""  />
         </div>
 
       </div>
